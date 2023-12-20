@@ -4,6 +4,7 @@ import Destination from '../views/Destination.vue'
 import Crew from '../views/Crew.vue'
 import Technology from '../views/Technology.vue'
 const router = createRouter({
+  mode: 'history',
   history: createWebHistory(import.meta.env.BASE_URL),
   routes: [
     {
