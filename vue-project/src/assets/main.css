@@ -1,0 +1,153 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;600;700&family=Barlow:wght@400;700&family=Bellefair&display=swap");
+
+
+
+:root {
+
+    --clr-dark: #0B0D17;
+    --clr-light: #D0D6F9;
+    --clr-white: #FFFFFF;
+
+    --ff-barlow-regular: 'Barlow', sans-serif;
+    --ff-barlow-cond: 'Barlow Condensed', sans-serif;
+    --ff-belle-regular: 'Bellefair', serif;
+}
+
+.text-dark{
+    color: var(--clr-dark) !important;
+}
+
+.text-light {
+    color: var(--clr-light) !important;
+}
+
+.text-white {
+    color: var(--clr-white) !important;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main-text {
+    font-family: var(--ff-barlow-regular);
+    font-size: 18px;
+    line-height: 32px;
+}
+
+.heading-1 {
+    font-family: var(--ff-belle-regular);
+    font-size: 150px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.heading-2 {
+    font-family: var(--ff-belle-regular);
+    font-size: 100px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.heading-3 {
+    font-family: var(--ff-belle-regular);
+    font-size: 56px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.heading-4 {
+    font-family: var(--ff-belle-regular);
+    font-size: 32px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.heading-5 {
+    font-family: var(--ff-barlow-cond);
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.heading-5 span {
+    color: rgba(255, 255, 255, 25%);
+    font-weight: 600;
+}
+
+.subheading-1 {
+    font-family: var(--ff-belle-regular);
+    font-size: 28px;
+}
+
+.subheading-2 {
+    font-family: var(--ff-barlow-cond);
+    font-size: 14px;
+    letter-spacing: 2.35px;
+}
+
+.section-heading {
+    margin-top: 165px;
+    margin-left: 166.5px;
+}
+
+.section-heading span {
+    padding-right: 22px;
+}
+
+
+
+@media screen and (max-width:768px) {
+    .section-heading {
+        margin-top: 136px;
+        margin-left: 38.5px;
+    }
+    .section-heading .heading-5 {
+        font-size: 20px;
+        letter-spacing: 3.38px;
+    }
+    .heading-2 {
+        font-size: 80px;
+    }
+    .heading-3 {
+        font-size: 40px;
+    }
+    .heading-4 {
+        font-size: 20px;
+    }
+    .main-text {
+        font-size: 16px;
+        line-height: 28px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    .heading-1 {
+        font-size: 80px;
+    }
+    .main-text {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    .section-heading {
+        margin: 88px auto 0;
+    }
+    .heading-3 {
+        font-size: 24px!important;
+    }
+    .heading-4 {
+        font-size: 16px!important;
+    }
+    .section-heading .heading-5 {
+        font-size: 16px;
+        letter-spacing: 2.7px;
+    }
+}
