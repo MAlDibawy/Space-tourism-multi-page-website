@@ -2,7 +2,7 @@
     <div class="header">
         <div class="nav-text" id="nav">
             <div class="logo">
-                <img src="../assets/shared/logo.svg" alt="logo">
+                <img src="/shared/logo.svg" alt="logo">
             </div>
             <div class="header-line">
             </div>
